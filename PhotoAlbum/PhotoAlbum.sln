@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D631C0F-5851-46D0-9C28-5CB50633F99F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56FFA60F-4E13-4625-B22A-B52BF6272021}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PhotoAlbum", "src\PhotoAlbum\PhotoAlbum.xproj", "{14019EA2-2429-4318-80EC-ECBC879DBC02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14019EA2-2429-4318-80EC-ECBC879DBC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14019EA2-2429-4318-80EC-ECBC879DBC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14019EA2-2429-4318-80EC-ECBC879DBC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14019EA2-2429-4318-80EC-ECBC879DBC02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14019EA2-2429-4318-80EC-ECBC879DBC02} = {0D631C0F-5851-46D0-9C28-5CB50633F99F}
+	EndGlobalSection
+EndGlobal
