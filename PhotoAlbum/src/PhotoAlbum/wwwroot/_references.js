@@ -1,4 +1,4 @@
-﻿/// <autosync enabled="true" />
+﻿/// <autosync enabled="false" />
 /// <reference path="../gulpfile.js" />
 /// <reference path="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
 /// <reference path="lib/jquery-validation/jquery.validate.js" />
