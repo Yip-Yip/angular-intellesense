@@ -1,18 +1,33 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="photoBrowser">
 <head>
     <meta charset="utf-8" />
-    <title>Bower and Fotorama</title>
-    <link href="lib/fotorama/fotorama.css" rel="stylesheet" />
+    <title>Ang Demo</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/angular/angular.js" ></script>
+
 </head>
 <body>
-    <div class="fotorama" data-nav="thumbs">
-        <img src="images/asp-net-banners-01.png" />
-        <img src="images/asp-net-banners-02.png" />
-        <img src="images/banner-01-azure.png" />
-        <img src="images/banner-02-vs.png" />
+    <div ng-controller="photoList" class="container">
+        <h1>{{message}}</h1>
+        <div class="row">
+
+            <input type="text" class="form-control" ng-model="search.title"/>
+
+        </div>
+        <div class="row">
+            <div ng-repeat="image in images | filter:search" class="col-sm-6">
+
+                <h1>{{image.title}}</h1>
+                <img src="{{image.url}}" width="200" />
+            </div>
+
+
+        </div>
+
     </div>
-    <script src="lib/jquery/dist/jquery.js"></script>
-    <script src="lib/fotorama/fotorama.js"></script>
+    
+    <script src="js/app.js"></script>
 </body>
 </html>

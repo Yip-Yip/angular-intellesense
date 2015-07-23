@@ -8,3 +8,5 @@
 /// <reference path="lib/bootstrap-touch-carousel/dist/js/bootstrap-touch-carousel.js" />
 /// <reference path="js/site.js" />
 /// <reference path="lib/fotorama/fotorama.js" />
+/// <reference path="lib/angular/angular.min.js" />
+/// <reference path="lib/angular/angular.js" />
